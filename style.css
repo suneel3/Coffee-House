@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::placeholder{
+    color: white;
+    font-size: 1.05rem;
+}
+header{
+    background-image: url("coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px black;
+}
+header input{
+    position: sticky;
+    padding: 1.2rem;
+    width: 70%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(99, 18, 18,1);
+    color: white;
+    height: 60px;
+}
+main{
+    background-color: rgb(165, 42, 42, 0.3);
+    padding-bottom: 2rem;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.item{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+.item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+    transition: all 0.2s ease-in-out;
+   
+}
+.item img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 8px 25px black;
+}
+.about{
+   width: 90%;
+   margin: 2rem auto;
+
+}
+.first{
+  
+    padding: 30px;
+    box-shadow:  0px 0px 8px brown;
+    border-radius: 5px;
+    margin: 3rem 0rem;
+    background-color: rgb(165, 42, 42, 0.3);
+}
+.first h1{
+    color: brown;
+}
+.first div{
+    margin-bottom: 1rem;
+}
+.first p{
+    text-align: justify;
+    line-height: 20px;
+    color: brown;
+}
+
+li{
+    color: brown;
+    line-height: 30px;
+}
+.para{
+    margin: 1rem 0rem;
+}
